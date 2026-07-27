@@ -1,0 +1,32 @@
+# ── Dependencies ──────────────────────────────────────────────
+node_modules/
+
+# ── Vercel build output ────────────────────────────────────────
+.vercel/
+
+# ── Environment variables (never commit secrets) ───────────────
+.env
+.env.local
+.env.*.local
+
+# ── macOS system files ─────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows system files ───────────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Editor / IDE folders ───────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+npm-debug.log*
